@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-typed-complex-ctors",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Complex typed array constructors.",
   "license": "Apache-2.0",
   "author": {
