@@ -34,14 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-typed-complex-ctors
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex-ctors@esm/index.mjs';
+var ctors = require( '@stdlib/array-typed-complex-ctors' );
 ```
 
 #### ctors( dtype )
@@ -85,14 +101,9 @@ var ctor = ctors( 'float64' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex-dtypes@esm/index.mjs';
-import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-complex-ctors@esm/index.mjs';
+```javascript
+var dtypes = require( '@stdlib/array-typed-complex-dtypes' );
+var ctors = require( '@stdlib/array-typed-complex-ctors' );
 
 var DTYPES = dtypes();
 var ctor;
@@ -102,10 +113,6 @@ for ( i = 0; i < DTYPES.length; i++ ) {
     ctor = ctors( DTYPES[ i ] );
     console.log( ctor );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -128,8 +135,8 @@ for ( i = 0; i < DTYPES.length; i++ ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/array/ctors`][@stdlib/array/ctors]</span><span class="delimiter">: </span><span class="description">array constructors.</span>
--   <span class="package-name">[`@stdlib/array/typed-ctors`][@stdlib/array/typed-ctors]</span><span class="delimiter">: </span><span class="description">typed array constructors.</span>
+-   <span class="package-name">[`@stdlib/array-ctors`][@stdlib/array/ctors]</span><span class="delimiter">: </span><span class="description">array constructors.</span>
+-   <span class="package-name">[`@stdlib/array-typed-ctors`][@stdlib/array/typed-ctors]</span><span class="delimiter">: </span><span class="description">typed array constructors.</span>
 
 </section>
 
@@ -144,7 +151,7 @@ for ( i = 0; i < DTYPES.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -188,7 +195,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -206,9 +213,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/array/ctors]: https://github.com/stdlib-js/array-ctors/tree/esm
+[@stdlib/array/ctors]: https://github.com/stdlib-js/array-ctors
 
-[@stdlib/array/typed-ctors]: https://github.com/stdlib-js/array-typed-ctors/tree/esm
+[@stdlib/array/typed-ctors]: https://github.com/stdlib-js/array-typed-ctors
 
 <!-- </related-links> -->
 
