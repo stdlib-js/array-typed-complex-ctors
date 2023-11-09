@@ -148,6 +148,7 @@ for ( i = 0; i < DTYPES.length; i++ ) {
 
 -   <span class="package-name">[`@stdlib/array-ctors`][@stdlib/array/ctors]</span><span class="delimiter">: </span><span class="description">array constructors.</span>
 -   <span class="package-name">[`@stdlib/array-typed-ctors`][@stdlib/array/typed-ctors]</span><span class="delimiter">: </span><span class="description">typed array constructors.</span>
+-   <span class="package-name">[`@stdlib/array-typed-real-ctors`][@stdlib/array/typed-real-ctors]</span><span class="delimiter">: </span><span class="description">typed array constructors.</span>
 
 </section>
 
@@ -227,6 +228,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/array/ctors]: https://github.com/stdlib-js/array-ctors
 
 [@stdlib/array/typed-ctors]: https://github.com/stdlib-js/array-typed-ctors
+
+[@stdlib/array/typed-real-ctors]: https://github.com/stdlib-js/array-typed-real-ctors
 
 <!-- </related-links> -->
 
